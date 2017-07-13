@@ -1,10 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import {Http, HttpModule} from '@angular/http';
 
 import { AppComponent } from './app.component';
 import {LayoutModule} from './layout/layout.module';
+
+
 
 @NgModule({
   declarations: [
@@ -14,8 +16,8 @@ import {LayoutModule} from './layout/layout.module';
     BrowserModule,
     FormsModule,
     HttpModule,
+    LayoutModule,
 
-    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
