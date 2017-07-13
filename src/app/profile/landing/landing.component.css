@@ -1,0 +1,35 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+
+
+.card {
+  position: relative;
+  height: 300px;
+  min-height: 300px;
+  width: 300px;
+  min-width: 300px;
+  /*background: rgba(223,223,223,0.39);*/
+  background-color: red;
+  box-shadow: 0px 5px 10px 0px rgba(206,206,206,0.5);
+  margin: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+
+.flex-item {
+  background-color: rgba(64,110,170,.8);
+  border-radius: 5px;
+
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}

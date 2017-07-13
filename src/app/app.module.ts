@@ -5,6 +5,7 @@ import {Http, HttpModule} from '@angular/http';
 
 import { AppComponent } from './app.component';
 import {LayoutModule} from './layout/layout.module';
+import {ProfileModule} from "./profile/profile.module";
 
 
 
@@ -17,6 +18,7 @@ import {LayoutModule} from './layout/layout.module';
     FormsModule,
     HttpModule,
     LayoutModule,
+    ProfileModule
 
   ],
   providers: [],

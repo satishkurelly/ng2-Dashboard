@@ -1,7 +1,5 @@
 /* core application min css */
-/*@import 'assets/common/css/min/bootstrap.min.css';*/
-
-
+@import 'assets/common/css/min/bootstrap.min.css';
 
 
 @import 'assets/common/css/main.css';
