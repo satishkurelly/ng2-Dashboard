@@ -1,5 +1,8 @@
-body {
-  /*font-family: 'Source Sans Pro', sans-serif;*/
-  background-color: #FAFAFA;
-  font-family: Century;
-}
+/* core application min css */
+/*@import 'assets/common/css/min/bootstrap.min.css';*/
+
+
+
+
+@import 'assets/common/css/main.css';
+
